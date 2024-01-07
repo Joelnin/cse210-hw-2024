@@ -6,14 +6,14 @@ class Program
     {
         
         Console.Write("What is your first name? "); // Ask for the first name.
-        string firts_name = Console.ReadLine(); // Save the first name in "first_name".
+        string firtsName = Console.ReadLine(); // Save the first name in "first_name".
         
         Console.Write("What is your last name? "); // Ask for last name.
-        string last_name = Console.ReadLine(); // Save last name in "last_name".
+        string lastName = Console.ReadLine(); // Save last name in "last_name".
 
         Console.WriteLine(); // Line for aesthetic.
 
-        Console.WriteLine($"Your name is {last_name}, {firts_name} {last_name}."); // Print the info.
+        Console.WriteLine($"Your name is {lastName}, {firtsName} {lastName}."); // Print the info.
 
     }
 }
