@@ -47,7 +47,7 @@ class Program
             }
         }
 
-        // Prfloat information.
+        // Print information.
         Console.WriteLine($"The sum is: {sum}"); // Total.
         Console.WriteLine($"The average is: {average:N2}"); // Average.
         Console.WriteLine($"The largest number is: {maxNumber}"); // Maximum.
