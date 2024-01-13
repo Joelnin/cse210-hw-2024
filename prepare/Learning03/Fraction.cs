@@ -1,6 +1,6 @@
 using System;
 
-class Fraction
+public class Fraction
 {
     private int _topNumber; // Every fraction need a numerator.
     private int _bottomNumber; // And a denominator.
